@@ -1,23 +1,23 @@
 # Titanic
 
 
-To run the script, in terminal :
+<h3> To run the script, in terminal : </h3>
 
-python main.py -T train.csv -t test.csv -v gender_submission.csv -a decision tree
+<p> python main.py -T train.csv -t test.csv -v gender_submission.csv -a decision tree </p>
 
-It will run the best accuracy (around 92%)
-
-
-
-You can also do the -h command in terminal :
-
-python main.py -h
-
-You will have the description of each option
+<p> It will run the best accuracy (around 92%) </p>
 
 
 
-Functions description :
+<h3> You can also do the -h command in terminal : </h3>
+
+<p> python main.py -h </p>
+
+<p> You will have the description of each option </p>
+
+
+
+<h3> Functions description : </h3>
 
 main.py : Used to execute the script
 
