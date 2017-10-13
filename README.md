@@ -33,15 +33,16 @@
 	</li>
 	<li> 
 		age_prediction.py : 
-		Fills age column with an age prediction 
-		Used in treating_data.py
-	</li>
-	<li>
-		Used in treating_data.py 
+		<ul>
+		<li> Fills age column with an age prediction </li>
+		<li> Used in treating_data.py </li>
+		</ul>
 	</li>
 	<li> 
 		argparse_func.py : 
-		Creates options to run to script with command-lines 
+		<ul>
+		<li> Creates options to run to script with command-lines </li>
+		</ul>
 	</li>
 	<li> 
 		average_fare.py : 
