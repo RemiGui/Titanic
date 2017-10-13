@@ -1,4 +1,4 @@
-# Titanic
+﻿READ ME :
 
 
 To run the script, in terminal :
@@ -50,5 +50,6 @@ preparing_data.py : Prepares the train and test data for algorithms
 
 treating_data.py : Preprocessing the test and train data
 		     used in main.py
+
 
 
