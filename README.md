@@ -15,7 +15,13 @@
 
 <p> You will have the description of each option </p>
 
-
+<h3> Used Libraries : </h3>
+<ul>
+<li> Pandas </li>
+<li> Numpy </li>
+<li> Argparse </li>
+<li> Sklearn </li>
+</ul>
 
 <h3> Functions description : </h3>
 
