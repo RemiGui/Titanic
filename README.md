@@ -27,7 +27,9 @@
 <ul>
 	<li> 
 		main.py :
-		Used to execute the script 
+		<ul>
+		<li> Used to execute the script </li>
+		</ul>
 	</li>
 	<li> 
 		age_prediction.py : 
