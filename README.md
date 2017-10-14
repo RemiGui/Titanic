@@ -59,9 +59,10 @@
 		</ul>
 	</li>
 	<li> 
-		<li> converting_gender.py : </li> 
+		converting_gender.py :
 		<ul>
 		<li> Converts gender strings to int (binary, male = 1, female = 0) </li> 
+		<li> Used in treating_data.py </li> 
 		</ul>
 	</li>
 	<li> 
