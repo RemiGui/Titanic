@@ -41,51 +41,69 @@
 	<li> 
 		argparse_func.py : 
 		<ul>
-		<li> Creates options to run to script with command-lines </li>
+		 Creates options to run to script with command-lines </li>
 		</ul>
 	</li>
 	<li> 
 		average_fare.py : 
-		Fills fare column with average fare
-        	Used in treating_data.py 
+		<ul>
+		<li> Fills fare column with average fare </li> 
+        	<li> Used in treating_data.py </li> 
+		</ul>
 	</li>
 	<li> 
 		converting_embark.py : 
-		Converts embarks string to int
-        	Used in treating_data.py 
+		<ul>
+		<li> Converts embarks string to int </li> 
+        	<li> Used in treating_data.py </li> 
+		</ul>
 	</li>
 	<li> 
-		converting_gender.py : 
-		Converts gender strings to int (binary, male = 1, female = 0) 
+		<ul>
+		<li> converting_gender.py : </li> 
+		<li> Converts gender strings to int (binary, male = 1, female = 0) </li> 
+		</ul>
 	</li>
 	<li> 
 		decision_tree.py : 
-		Performs decision tree algorithm
-        	Used in performing_algorithm.py 
+		<ul>
+		<li> Performs decision tree algorithm </li> 
+        	<li> Used in performing_algorithm.py </li> 
+		</ul>
 	</li>
 	<li> 
 		input_data.py : 
-		Extracts data from csv files with pandas and converts them to numpy arrays 
+		<ul>
+		<li> Extracts data from csv files with pandas and converts them to numpy arrays </li> 
+		</ul>
 	</li>
 	<li> 
 		linear_regression.py : 
-		Performs linear regression algorithm
-        	Used in performing_algorithm.py 
+		<ul>
+		<li> Performs linear regression algorithm </li> 
+        	<li> Used in performing_algorithm.py </li> 
+		</ul>
 	</li>
 	<li> 
 		performing_algorithm.py : 
-		Performs algorithm chosen by user
-		Used in main.py 
+		<ul>
+		<li> Performs algorithm chosen by user </li> 
+		<li> Used in main.py </li> 
+		</ul>
 	</li>
 	<li> 
-		preparing_data.py : 
-		Prepares the train and test data for algorithms
-		Used in main.py 
+		preparing_data.py :
+		<ul>
+		<li> Prepares the train and test data for algorithms </li> 
+		<li> Used in main.py </li> 
+		</ul>
 	</li>
 	<li> 
 		treating_data.py : 
-		Preprocessing the test and train data
-		Used in main.py 
+		<ul>
+		<li> Preprocessing the test and train data </li> 
+		<li> Used in main.py </li> 
+		</ul>
 	</li>
 </ul>
 
