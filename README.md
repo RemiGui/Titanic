@@ -41,7 +41,7 @@
 	<li> 
 		argparse_func.py : 
 		<ul>
-		 Creates options to run to script with command-lines </li>
+		<li> Creates options to run to script with command-lines </li>
 		</ul>
 	</li>
 	<li> 
@@ -97,6 +97,13 @@
 		<ul>
 		<li> Prepares the train and test data for algorithms </li> 
 		<li> Used in main.py </li> 
+		</ul>
+	</li>
+	<li> 
+		SVM.py : 
+		<ul>
+		<li> Performs SVM algorithm </li> 
+        	<li> Used in performing_algorithm.py </li> 
 		</ul>
 	</li>
 	<li> 
