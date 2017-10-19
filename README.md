@@ -5,7 +5,16 @@
 
 <p> python main.py -T train.csv -t test.csv -v gender_submission.csv -a decision tree </p>
 
-<p> It will run the best accuracy (around 92%) </p>
+<p> It will run the best accuracy </p>
+
+
+<h3> Algorithms accuracy : </h3>
+
+<ul>
+<li> Decision tree : 0.923 </li>
+<li> SVM : 0.679 </li>
+<li> Linear regression : 0.672 </li>
+</ul>
 
 
 
