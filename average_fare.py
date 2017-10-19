@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+
 def average_fare(matrix, column):
     """
     :param matrix: Matrix
@@ -9,14 +10,14 @@ def average_fare(matrix, column):
     """
     sum = 0
     nul = 0
-    for var_loop in range(len(matrix)):
-        if pd.isnull(matrix[var_loop, column]):
+    for line in range(len(matrix)):
+        if pd.isnull(matrix[line, column]):
             nul += 1
         else:
-            sum += float(matrix[var_loop, column])
+            sum += float(matrix[line, column])
 
     avg = sum / (len(matrix) - nul)
 
-    for var_loop in range(len(matrix)):
-        if pd.isnull(matrix[var_loop, column]):
-            matrix[var_loop, column] = np.around(avg, 1)
+    for line in range(len(matrix)):
+        if pd.isnull(matrix[line, column]):
+            matrix[line, column] = np.around(avg, 1)
