@@ -4,10 +4,10 @@ def embark_conversion(matrix, column):
     :param column: Int
     :return: Converted embark data & giving 'S' to missing embark
     """
-    for var_loop in range(len(matrix)):
-        if matrix[var_loop, column] == 'C':
-            matrix[var_loop, column] = 0
-        elif matrix[var_loop, column] == 'Q':
-            matrix[var_loop, column] = 2
+    for line in range(len(matrix)):
+        if matrix[line, column] == 'C':
+            matrix[line, column] = 0
+        elif matrix[line, column] == 'Q':
+            matrix[line, column] = 2
         else:
-            matrix[var_loop, column] = 1
+            matrix[line, column] = 1
