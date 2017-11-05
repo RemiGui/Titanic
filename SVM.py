@@ -7,7 +7,7 @@ def SVM(X, y, X_test):
     :param X: Matrix
     :param y: Matrix
     :param X_test: Matrix
-    :return: Prediction using decision tree algorithm
+    :return: Prediction using Support Vector Machine algorithm
     """
     clf = SVC().fit(X, y)
 
